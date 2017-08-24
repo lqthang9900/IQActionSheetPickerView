@@ -98,7 +98,7 @@ NSString * const kIQActionSheetAttributesForHighlightedStateKey = @"kIQActionShe
         
         //Initial settings
         {
-            self.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.8];
+            self.backgroundColor = [UIColor colorWithWhite:0.8 alpha:1.0];
             [self setFrame:CGRectMake(0, 0, CGRectGetWidth(_pickerView.frame), CGRectGetMaxY(_pickerView.frame))];
             [self setActionSheetPickerStyle:IQActionSheetPickerStyleTextPicker];
             
